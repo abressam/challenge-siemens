@@ -1,3 +1,5 @@
+package QuestionThree;
+
 public class QuestionThree {
     public void fooBaaPrintByRange() {
         for (int i = 1; i <= 100; i++) {

@@ -15,3 +15,33 @@ This project represents the technical challenge stage of Siemens' selection proc
 1. [Programming Language](#language)
 2. [Project organization](#organize)
 3. [Challenge Responses](#questions)
+
+<div id='language' />
+
+# 🔧 Programming Language
+
+<p align="justify">
+As I have already carried out projects with this language, I chose <strong><i>Java</i></strong> as the programming language to solve the practical exercises.
+</p>
+
+<div id='organize' />
+
+# 📁 Project organization
+
+<p align="justify">
+The organization of the project is very simple, the <strong><i>scripts</i></strong> folder contains questions six, eight and nine, which are SQL files or .txt commands (as is the case with question nine). 
+ The <strong><i>src</i></strong> contais questions three, four, ten, eleven and the Main file.
+</p>
+
+1. [The Script Folder](#script)
+2. [The Src Folder](#src)
+
+![image](https://github.com/abressam/challenge-siemens/assets/71531467/e70dcb11-3671-4ca9-8923-c3f16abb527d)
+
+<div id='script' />
+
+## 📁 The Script Folder
+
+<div id='src' />
+
+## 📁 The Src Folder

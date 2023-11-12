@@ -42,6 +42,16 @@ The organization of the project is very simple, the <strong><i>scripts</i></stro
 
 ## 📁 The Script Folder
 
+<p align="justify">
+This folder separates the challenges that are in SQL and those that are arranged in files in .txt format.
+</p>
+
 <div id='src' />
 
 ## 📁 The Src Folder
+
+<p align="justify">
+For the challenges made in Java, I created a class for each one and they are present in their respective folders. In the Main class, I created a menu to organize the separation of each exercise.
+</p>
+
+![image](https://github.com/abressam/challenge-siemens/assets/71531467/7d29acb8-4fbb-460a-9ba6-4e45c4ceb952)

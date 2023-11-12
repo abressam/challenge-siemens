@@ -46,6 +46,8 @@ The organization of the project is very simple, the <strong><i>scripts</i></stro
 This folder separates the challenges that are in SQL and those that are arranged in files in .txt format.
 </p>
 
+![image](https://github.com/abressam/challenge-siemens/assets/71531467/8ed06b5c-76fc-4d67-81e7-fd5ef973526d)
+
 <div id='src' />
 
 ## 📁 The Src Folder

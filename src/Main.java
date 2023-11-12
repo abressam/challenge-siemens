@@ -9,9 +9,9 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        String s = scanner.nextLine().trim();
-        String t = scanner.nextLine().trim();
-        int k = Integer.parseInt(scanner.nextLine().trim());
+        String s = scanner.nextLine().replaceAll(" ","");
+        String t = scanner.nextLine().replaceAll(" ","");
+        int k = Integer.parseInt(scanner.nextLine());
 
         QuestionFour questionFour = new QuestionFour();
         String result = questionFour.ConcatRemove(s, t, k);

@@ -11,4 +11,21 @@ public class QuestionFourTest {
 
         assertEquals("yes", QuestionFour.ConcatRemove(newS, t, k));
     }
+    @Test
+    public void canConvertJustEnoughOperations() {
+        String s = "abc";
+        String t = "def";
+        int k = 6;
+
+        assertEquals("yes", QuestionFour.ConcatRemove(s, t, k));
+    }
+
+    @Test
+    public void canConvertNotEnoughOperations() {
+        String s = "abc";
+        String t = "def";
+        int k = 5;
+
+        assertEquals("no", QuestionFour.ConcatRemove(s, t, k));
+    }
 }

@@ -46,4 +46,13 @@ public class QuestionFourTest {
 
         assertEquals("yes", QuestionFour.ConcatRemove(s, t, k));
     }
+
+    @Test
+    public void testCanConvertEqualStrings() {
+        String s = "xyz";
+        String t = "xyz";
+        int k = 6;
+
+        assertEquals("yes", QuestionFour.ConcatRemove(s, t, k));
+    }
 }

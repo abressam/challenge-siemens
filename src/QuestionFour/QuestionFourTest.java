@@ -28,4 +28,22 @@ public class QuestionFourTest {
 
         assertEquals("no", QuestionFour.ConcatRemove(s, t, k));
     }
+
+    @Test
+    public void canConvertExcessOperations() {
+        String s = "abc";
+        String t = "def";
+        int k = 7;
+
+        assertEquals("yes", QuestionFour.ConcatRemove(s, t, k));
+    }
+
+    @Test
+    public void testCanConvertEmptyStrings() {
+        String s = "";
+        String t = "";
+        int k = 0;
+
+        assertEquals("yes", QuestionFour.ConcatRemove(s, t, k));
+    }
 }

@@ -32,3 +32,20 @@ INSERT INTO Notes (Grade, Min_Value, Max_Value) VALUES
     (9, 80, 89),
     (10, 90, 100);
 
+SELECT
+    CASE
+        WHEN Value BETWEEN 70 AND 100 THEN Name
+        ELSE 'NULL'
+    END AS Name,
+    CASE
+        WHEN Value BETWEEN 70 AND 100 THEN 8 + (Value - 70) / 10
+        ELSE 7
+    END AS Grade,
+    Value
+FROM Students
+WHERE
+    Value BETWEEN 70 AND 100
+    OR Value < 70
+ORDER BY
+    Grade DESC,
+    Name;

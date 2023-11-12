@@ -57,3 +57,38 @@ For the challenges made in Java, I created a class for each one and they are pre
 </p>
 
 ![image](https://github.com/abressam/challenge-siemens/assets/71531467/7d29acb8-4fbb-460a-9ba6-4e45c4ceb952)
+
+<div id='questions' />
+
+# 💡 Challenge Responses
+
+<p align="justify">
+In this topic I will explain each question step by step.
+</p>
+
+1. [Question Three](#3)
+2. [Question Four](#4)
+3. [Question Six](#6)
+4. [Question Eight](#8)
+5. [Question Nine](#9)
+6. [Question Ten](#10)
+7. [Question Eleven](#11)
+
+<div id='3' />
+
+## 💡 Question Three
+
+<p align="justify">
+This code is an implementation of a Java program that loops through numbers from 1 to 100 and prints "Foo" if the number is a multiple of 3, "Baa" if it is a multiple of 5, and "FooBaa" if it is a multiple of both. If it is not a multiple of either, it simply prints the number. Let's see step by step.</p>
+
+<p align="justify">
+This is a private method that checks if number is a multiple of multiple. It returns true if it is and false otherwise. The % operator is used to calculate the remainder of dividing number by multiple, and if the remainder is zero, then number is a multiple of multiple.</p>
+
+![image](https://github.com/abressam/challenge-siemens/assets/71531467/2d5ad02f-d24f-49ca-b960-737ab83ab621)
+
+<p align="justify">
+This method loops through the numbers 1 to 100 using a for loop. For each number, it calls the multipleValidator method to check if it is a multiple of 3 and/or 5. Depending on the result, it concatenates the strings "Foo" and/or "Baa" to the resp variable. If the resp variable is still empty after the checks, it means that the number is not a multiple of 3 or 5, so the number itself is concatenated to resp. At the end of each iteration, the string resp is printed to the console.</p>
+
+![image](https://github.com/abressam/challenge-siemens/assets/71531467/50bb9049-8851-4487-bfde-3339882315a3)
+
+

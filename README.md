@@ -68,11 +68,12 @@ In this topic I will explain each question step by step.
 
 1. [Question Three](#3)
 2. [Question Four](#4)
-3. [Question Six](#6)
-4. [Question Eight](#8)
-5. [Question Nine](#9)
-6. [Question Ten](#10)
-7. [Question Eleven](#11)
+3. [Question Four - Unit Test](#5)
+4. [Question Six](#6)
+5. [Question Eight](#8)
+6. [Question Nine](#9)
+7. [Question Ten](#10)
+8. [Question Eleven](#11)
 
 <div id='3' />
 
@@ -124,6 +125,8 @@ The CountCharactersInTheSamePosition method is a helper method that counts the n
 
 ![image](https://github.com/abressam/challenge-siemens/assets/71531467/517adb19-6068-486a-a820-706feb934fd9)
 
+<div id='5' />
+ 
 ## 💡 Question Four - Unit Teste
 
 <p align="justify">
@@ -168,14 +171,16 @@ Create notes table with Grade, Min_Value and Max_Value and insert values
 
 ![image](https://github.com/abressam/challenge-siemens/assets/71531467/0ec763da-f47c-47b4-8aab-154cf048e39f)
 
-<div id='8' />
-
-## 💡 Question Eight
-
-
-
 ### 💡 Question Six - Result
 
 ![image](https://github.com/abressam/challenge-siemens/assets/71531467/5754b787-bb7f-49fe-b3f2-f85a8189ce00)
 
+<div id='8' />
+
+## 💡 Question Eight
+
+<p align="justify">
+This SQL code performs a query on two different tables (dogs and cats) and combines the results using the UNION clause. The goal is to select the animal names (dogs and cats) from both tables and return a unique list of names, removing duplicates.</p>
+
+![image](https://github.com/abressam/challenge-siemens/assets/71531467/f116db95-2ae7-4626-ba7f-a951550b09d1)
 

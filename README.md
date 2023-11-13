@@ -184,3 +184,23 @@ This SQL code performs a query on two different tables (dogs and cats) and combi
 
 ![image](https://github.com/abressam/challenge-siemens/assets/71531467/f116db95-2ae7-4626-ba7f-a951550b09d1)
 
+<div id='9' />
+
+## 💡 Question Nine
+
+<p align="justify">
+This question needed to execute a sequence of commands to achieve the desired result.</p>
+
+### 💡 Problem #1
+
+![image](https://github.com/abressam/challenge-siemens/assets/71531467/0e39d1e8-19ae-47b8-82f0-f14748c7a4e7)
+
+### 💡 Problem #2
+
+![image](https://github.com/abressam/challenge-siemens/assets/71531467/ea219edd-fcef-47bf-aaee-9b62599565cc)
+
+### 💡 Problem #3
+
+![image](https://github.com/abressam/challenge-siemens/assets/71531467/62426915-dfe8-42e8-9949-6e88f2f1b457)
+
+

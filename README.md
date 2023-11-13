@@ -120,6 +120,11 @@ The CountCharactersInTheSamePosition method is a helper method that counts the n
 
 ![image](https://github.com/abressam/challenge-siemens/assets/71531467/7a574ca7-f196-499d-8df6-885cf0aa69ca)
 
+### 💡 Question Four - Result
+
+![image](https://github.com/abressam/challenge-siemens/assets/71531467/517adb19-6068-486a-a820-706feb934fd9)
+
+
 <div id='6' />
 
 ## 💡 Question Six

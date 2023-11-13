@@ -116,3 +116,40 @@ The CountCharactersInTheSamePosition method is a helper method that counts the n
 
 ![image](https://github.com/abressam/challenge-siemens/assets/71531467/7a574ca7-f196-499d-8df6-885cf0aa69ca)
 
+<div id='6' />
+
+## 💡 Question Six
+
+<p align="justify">
+This SQL code creates two tables, Students and Notes, inserts data into these tables, and then performs a query to obtain student-specific information based on their grades.
+</p>
+
+<p align="justify">
+Create student table with ID, Name and Value and insert values
+</p>
+
+![image](https://github.com/abressam/challenge-siemens/assets/71531467/797a2b37-c14e-4ebe-a6d7-da1ed8ade3a1)
+
+<p align="justify">
+Create notes table with Grade, Min_Value and Max_Value and insert values
+</p>
+
+![image](https://github.com/abressam/challenge-siemens/assets/71531467/3947651f-d26e-40a3-aa00-d07d45109629)
+
+* The query uses the CASE clause to determine whether the student is in the 70 to 100 grade range. If so, the student's name is selected; otherwise, the value 'NULL' is returned.
+  
+* Another CASE clause is used to calculate the grade based on the student's Value. If the value is in the range of 70 to 100, the score is calculated using the formula 8 + (Value - 70) / 10; otherwise, the grade is fixed at 7.
+
+* The query selects the Name, Grade, and Value columns from the Students table.
+
+* The WHERE clause filters students with grades between 70 and 100 or below 70.
+
+* The results are sorted in descending order by Grade and, in case of a tie, in alphabetical order by Name.
+
+![image](https://github.com/abressam/challenge-siemens/assets/71531467/0ec763da-f47c-47b4-8aab-154cf048e39f)
+
+### 💡 Question Six - Result
+
+![image](https://github.com/abressam/challenge-siemens/assets/71531467/5754b787-bb7f-49fe-b3f2-f85a8189ce00)
+
+

@@ -91,4 +91,28 @@ This method loops through the numbers 1 to 100 using a for loop. For each number
 
 ![image](https://github.com/abressam/challenge-siemens/assets/71531467/50bb9049-8851-4487-bfde-3339882315a3)
 
+<div id='4' />
+
+## 💡 Question Four
+
+<p align="justify">
+This code implements a function called ConcatRemove that receives two strings s and t, and an integer k. The function returns "yes" if it is possible to transform the string s into the string t in at most k operations, where an operation consists of removing a character from the end of a string or adding a character to the end of a string. Otherwise, returns "no". Let's see step by step.</p>
+
+<p align="justify">
+The CountCharactersInTheSamePosition method is a helper method that counts the number of characters in the same positions in s and t, stopping the count when it encounters the first different character.
+</p>
+
+![image](https://github.com/abressam/challenge-siemens/assets/71531467/5438bec4-606e-4d96-a8f9-f1447b3ce28c)
+
+* countSameCharacter: Calculates the number of equal characters in the corresponding positions of the strings s and t. These characters are the ones at the beginning and remain unchanged during operations.
+ 
+* totalOperations: Calculates the total number of operations required to transform string s into string t. This is the sum of the non-matching characters in s and t after the matching positions.
+ 
+* isKWithinValidTotalOperations: Checks whether the value of k is sufficient to perform the total number of necessary operations, and whether the difference (k - totalOperations) is an even number.
+ 
+* isKWithinTotalLength: Checks if k is greater than or equal to the total length of the strings s and t.
+  
+* The code finally decides whether it is possible to transform s to t in at most k operations and returns "yes" or "no" according to the conditions mentioned above.
+
+![image](https://github.com/abressam/challenge-siemens/assets/71531467/7a574ca7-f196-499d-8df6-885cf0aa69ca)
 

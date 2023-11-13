@@ -91,6 +91,10 @@ This method loops through the numbers 1 to 100 using a for loop. For each number
 
 ![image](https://github.com/abressam/challenge-siemens/assets/71531467/50bb9049-8851-4487-bfde-3339882315a3)
 
+### 💡 Question Three - Result
+
+![image](https://github.com/abressam/challenge-siemens/assets/71531467/8fee8e43-0b5c-4eb8-ab60-06d1ece1b45d)
+
 <div id='4' />
 
 ## 💡 Question Four

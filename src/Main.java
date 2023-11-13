@@ -33,9 +33,9 @@ public class Main {
                 case 2:
                     // Question Four
                     System.out.println("Enter strings and an integer (space-separated):");
-                    String s = scanner.next();
-                    String t = scanner.next();
-                    int k = scanner.nextInt();
+                    String s = scanner.nextLine().replaceAll(" ","");
+                    String t = scanner.nextLine().replaceAll(" ","");
+                    int k = Integer.parseInt(scanner.nextLine());
 
                     QuestionFour questionFour = new QuestionFour();
                     String resultFour = questionFour.ConcatRemove(s, t, k);

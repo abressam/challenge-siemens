@@ -235,19 +235,19 @@ IMPORTANT: I couldn't find another way to make my string turn into an array of c
 The purpose of this method is to reverse the order of characters in a string given as input.
 </p>
 
-char[] charArray = inputString.toCharArray();: Converts the inputString string into a character array called charArray. This makes it easier to manipulate characters individually.
+* char[] charArray = inputString.toCharArray();: Converts the inputString string into a character array called charArray. This makes it easier to manipulate characters individually.
 
-int length = 0;: Declares an integer length variable and initializes it to zero. This variable will be used to store the length of the string.
+* int length = 0;: Declares an integer length variable and initializes it to zero. This variable will be used to store the length of the string.
 
-for (char character : charArray) { length++; }: Uses a for-each loop to loop through each character in the charArray array and increment the length variable to count the total number of characters in the string.
+* for (char character : charArray) { length++; }: Uses a for-each loop to loop through each character in the charArray array and increment the length variable to count the total number of characters in the string.
 
-int endIndex = 0;: Declares an integer variable endIndex and initializes it to zero. This variable will be used to store the index of the end of the string after counting characters.
+* int endIndex = 0;: Declares an integer variable endIndex and initializes it to zero. This variable will be used to store the index of the end of the string after counting characters.
 
-while (endIndex < length && charArray[endIndex] != '\0') { endIndex++; }: Uses a while loop to find the index at the end of the string (endIndex). The loop continues as long as the endIndex is less than the length of the string and the current character is not the null character ('\0').
+* while (endIndex < length && charArray[endIndex] != '\0') { endIndex++; }: Uses a while loop to find the index at the end of the string (endIndex). The loop continues as long as the endIndex is less than the length of the string and the current character is not the null character ('\0').
 
-for (int i = 0; i < endIndex / 2; i++) { char temp = charArray[i]; charArray[i] = charArray[endIndex - i - 1]; charArray[endIndex - i - 1] = temp; }: Uses a for loop to reverse the order of characters in the charArray array. It swaps the character at position i with the character at the corresponding position at the end of the string (endIndex - i - 1). This is done until the middle of the string to avoid reversing characters again.
+* for (int i = 0; i < endIndex / 2; i++) { char temp = charArray[i]; charArray[i] = charArray[endIndex - i - 1]; charArray[endIndex - i - 1] = temp; }: Uses a for loop to reverse the order of characters in the charArray array. It swaps the character at position i with the character at the corresponding position at the end of the string (endIndex - i - 1). This is done until the middle of the string to avoid reversing characters again.
 
-return new String(charArray, 0, endIndex);: Returns a new string created from the charArray character array, starting from position 0 to the endIndex index. This represents the reversed string.
+* return new String(charArray, 0, endIndex);: Returns a new string created from the charArray character array, starting from position 0 to the endIndex index. This represents the reversed string.
 
 ![image](https://github.com/abressam/challenge-siemens/assets/71531467/da3761c0-f790-47be-a049-28ec6936cd82)
 

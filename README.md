@@ -124,6 +124,17 @@ The CountCharactersInTheSamePosition method is a helper method that counts the n
 
 ![image](https://github.com/abressam/challenge-siemens/assets/71531467/517adb19-6068-486a-a820-706feb934fd9)
 
+## 💡 Question Four - Unit Teste
+
+<p align="justify">
+This code is a set of unit tests for the QuestionFour class.
+</p>
+
+![image](https://github.com/abressam/challenge-siemens/assets/71531467/4bc5c985-2fdb-459e-9102-6f59426ee707)
+
+![image](https://github.com/abressam/challenge-siemens/assets/71531467/3b0e507c-2467-4d9c-9ff6-93cbd1097015)
+
+![image](https://github.com/abressam/challenge-siemens/assets/71531467/2b2b1de1-c15f-4a20-bb95-dbf017324d66)
 
 <div id='6' />
 
@@ -156,6 +167,12 @@ Create notes table with Grade, Min_Value and Max_Value and insert values
 * The results are sorted in descending order by Grade and, in case of a tie, in alphabetical order by Name.
 
 ![image](https://github.com/abressam/challenge-siemens/assets/71531467/0ec763da-f47c-47b4-8aab-154cf048e39f)
+
+<div id='8' />
+
+## 💡 Question Eight
+
+
 
 ### 💡 Question Six - Result
 

@@ -203,4 +203,23 @@ This question needed to execute a sequence of commands to achieve the desired re
 
 ![image](https://github.com/abressam/challenge-siemens/assets/71531467/62426915-dfe8-42e8-9949-6e88f2f1b457)
 
+<div id='10' />
+
+## 💡 Question Ten
+
+<p align="justify">
+The objective of this method is to calculate the length of a string, that is, the number of characters it contains
+</p>
+
+* int length = 0;: Declares an integer length variable and initializes it to zero. This variable will be used to store the length of the string.
+
+* for (char character : inputString.toCharArray()) {: Starts a for-each loop that loops through each character in the inputString string. The toCharArray() method converts the string to an array of characters, and the for (char character : array) syntax iterates over each character in the array.
+
+* length++;: Inside the loop, increments the length variable with each iteration, that is, for each character in the string.
+
+* return length;: After the loop, the method returns the value of the length variable, which represents the total length of the string.
+
+![image](https://github.com/abressam/challenge-siemens/assets/71531467/b2105794-8c6e-4cf3-8b80-3dcc62b5431d)
+
+IMPORTANT: I couldn't find another way to make my string turn into an array of characters without using ready-made methods like toCharArray(), so I used it to complete the challenge.
 
